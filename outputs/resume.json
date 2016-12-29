@@ -1,0 +1,130 @@
+{
+  "name": "Luke Chen Shui",
+  "info": {},
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "location": {
+    "city": "Kingston",
+    "country": "JA",
+    "address": "7 Meadowland Drive"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Chief Technology Officer",
+        "employer": "Jamaican Association for Debating and Empowerment Limited",
+        "summary": "The Jamaican Association for Debating and Empowerment is an organization that aims to facilitate the development of debating and public speaking skills by establishing and supporting platforms for active discussions on issues relevant to the Jamaican society.",
+        "current": true,
+        "start": "2016-04-01",
+        "url": "http://myjade.org/",
+        "keywords": [],
+        "highlights": [
+          "Replaced their aging Joomla website with a more modern Wordpress site.",
+          "Made the JADE Mobile App which is a mobile social media platform that aims to increase the level of discourse of topics relevant to the Jamaican society."
+        ]
+      },
+      {
+        "position": "Contract Developer",
+        "employer": "Jamaica Money Market Brokers",
+        "summary": "Helped to write a REST API in Laravel that provides the backbone for the web and mobile apps developed by the rest of the team.",
+        "start": "2015-05-01",
+        "end": "2016-08-01",
+        "keywords": []
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "The University of Technology, Jamaica",
+        "start": "2014-09-01",
+        "summary": "",
+        "area": "Computing",
+        "studyType": "Bachelor of Science"
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Project Participant",
+        "start": "2016-06-01",
+        "end": "2016-08-01",
+        "url": "http://www.palisadoes.org/news/jps-foundation-reviews-calico-challenge/",
+        "summary": "The Calico Project is a programme from The Palisadoes Foundation that incentivizes Jamaican youth to contribute to various open source projects.",
+        "highlights": [
+          "developed a Python code style linter designed to augment pep8 and pep257 by checking to see if Python scripts adhere to the Infoset style guides."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Native Android App Development",
+        "level": "Intermediate",
+        "skills": [
+          "Android"
+        ]
+      },
+      {
+        "name": "Desktop Java Development",
+        "level": "Intermediate",
+        "skills": [
+          "JavaFX"
+        ]
+      },
+      {
+        "name": "Backend Web Development",
+        "level": "Intermediate",
+        "skills": [
+          "Laravel",
+          "PHP"
+        ]
+      },
+      {
+        "name": "Frontend Web Development",
+        "level": "Beginner",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      }
+    ]
+  },
+  "writing": [
+    {
+      "title": "OmniOS: Finishing a Programmer's Life's Work",
+      "url": "https://www.amazon.com/OmniOS-Finishing-Programmers-Lifes-Work-ebook/dp/B019LABBDY",
+      "date": "2015-12-19",
+      "summary": "A short book I wrote about the story of two young and inexperienced programmers who need to delve into the unfamiliar codebase of an operating system and have it ready for an imminent deadline."
+    }
+  ],
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/chenshuiluke",
+      "user": "chenshuiluke@gmail.com"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Erlich Bachman",
+      "flavor": "professional",
+      "quote": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.",
+      "private": false
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}
