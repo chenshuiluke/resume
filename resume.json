@@ -6,24 +6,6 @@
         "jobTitle": "Software Engineer",
         "website": "http://lukechenshui.com/"
     },
-    "skills":[
-        {
-            "name": "Java",
-            "competence": "intermediate"
-        },
-        {
-            "name": "Laravel",
-            "competence": "intermediate"
-        },
-        {
-            "name": "Android",
-            "competence": "intermediate"
-        },
-        {
-            "name": "Vanilla PHP",
-            "competence": "beginner"
-        }
-    ],
     "jobWork":[{
       "company": "Jamaican Association for Debating and Empowerment Limited",
       "position": "Chief Technology Officer",
@@ -52,7 +34,8 @@
       "keywords": [
         "php",
         "laravel"
-      ]        
+      ],
+      "numFollowingLineBreaks": 11   
     }],
     "volunteerWork":[
     {
@@ -69,5 +52,23 @@
         "flask"
       ]
     }],
+        "skills":[
+        {
+            "name": "Java",
+            "competence": "intermediate"
+        },
+        {
+            "name": "Laravel",
+            "competence": "intermediate"
+        },
+        {
+            "name": "Android",
+            "competence": "intermediate"
+        },
+        {
+            "name": "Vanilla PHP",
+            "competence": "beginner"
+        }
+    ],
     "numSkillColumns": 4
 }
