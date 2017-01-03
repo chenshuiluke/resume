@@ -70,5 +70,19 @@
             "competence": "beginner"
         }
     ],
+    "projects":[
+        {
+            "name": "JResume",
+            "description": "A Java program that takes a JSON file and converts it to an HTML resume!",
+            "highlights": [
+                "This resume was generated using JResume.",
+                "Currently has one available theme. More will be added soon"
+            ],
+            "keywords": [
+                "java"
+            ],
+            "url": "https://github.com/chenshuiluke/jresume"            
+        }
+    ],
     "numSkillColumns": 4
 }
