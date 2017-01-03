@@ -1,117 +1,73 @@
 {
-  "basics": {
-    "name": "Luke Chen Shui",
-    "label": "Programmer",
-    "picture": "",
-    "email": "chenshuiluke@gmail.com",
-    "phone": "+1(876) 325-0880",
-    "website": "http://lukechenshui.com",
-    "summary": "I am a passionate young programmer and, while I want to specialize in native Android app development, I spend a lot of my time writing various kinds of software using Java, C, Python, PHP and Javascript.",
-    "location": {
-      "address": "7 Meadowland Drive",
-      "city": "Kingston",
-      "countryCode": "JA"
+    "person":{
+        "name": "Luke Chen Shui",
+        "email": "chenshuiluke@gmail.com",
+        "phoneNumber": "+1(876)325-0880",
+        "jobTitle": "Software Engineer",
+        "website": "http://lukechenshui.com/"
     },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "chenshuiluke@gmail.com",
-        "url": "https://github.com/chenshuiluke"
-      }
-    ]
-  },
-  "work": [
-    {
+    "skills":[
+        {
+            "name": "Java",
+            "competence": "intermediate"
+        },
+        {
+            "name": "Laravel",
+            "competence": "intermediate"
+        },
+        {
+            "name": "Android",
+            "competence": "intermediate"
+        },
+        {
+            "name": "Vanilla PHP",
+            "competence": "beginner"
+        }
+    ],
+    "jobWork":[{
       "company": "Jamaican Association for Debating and Empowerment Limited",
       "position": "Chief Technology Officer",
-      "website": "http://myjade.org/",
-      "startDate": "2016-04-01",
       "summary": "The Jamaican Association for Debating and Empowerment is an organization that aims to facilitate the development of debating and public speaking skills by establishing and supporting platforms for active discussions on issues relevant to the Jamaican society.",
+      "startDate": "April, 2016",
+      "endDate": "Present",
       "highlights": [
         "Replaced their aging Joomla website with a more modern Wordpress site.",
         "Made the JADE Mobile App which is a mobile social media platform that aims to increase the level of discourse of topics relevant to the Jamaican society."
+      ],
+      "keywords": [
+        "java",
+        "php",
+        "laravel",
+        "android"
       ]
-    },    
+    },
     {
       "company": "Jamaica Money Market Brokers",
       "position": "Contract Developer",
-      "startDate": "2015-05-01",
-      "endDate": "2016-08-01",
-      "summary": "Helped to write a REST API in Laravel that provides the backbone for the web and mobile apps developed by the rest of the team."
-    }
-  ],
-  "volunteer": [
+      "startDate": "May, 2015",
+      "endDate": "August, 2016",
+      "highlights": [
+        "Helped to write a REST API in Laravel that provides the backbone for the web and mobile apps developed by the rest of the team."
+      ],
+      "keywords": [
+        "php",
+        "laravel"
+      ]        
+    }],
+    "volunteerWork":[
     {
       "company": "The Palisadoes Foundation – Calico Project 2016",
       "position": "Project Participant",
-      "website": "http://www.palisadoes.org/news/jps-foundation-reviews-calico-challenge/",
-      "startDate": "2016-06-01",
-      "endDate": "2016-08-01",
       "summary": "The Calico Project is a programme from The Palisadoes Foundation that incentivizes Jamaican youth to contribute to various open source projects.",
+      "startDate": "June, 2016",
+      "endDate": "August, 2016",
       "highlights": [
-        "developed a Python code style linter designed to augment pep8 and pep257 by checking to see if Python scripts adhere to the Infoset style guides."
+        "Developed a Python code style linter designed to augment pep8 and pep257 by checking to see if Python scripts adhere to the Infoset style guides."
+        ],
+      "keywords": [
+        "python",
+        "flask"
       ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "The University of Technology, Jamaica",
-      "area": "Computing",
-      "studyType": "Bachelor of Science",
-      "startDate": "2014-09-01"
-    }
-  ],
-  "publications": [
-    {
-      "name": "OmniOS: Finishing a Programmer's Life's Work",
-      "releaseDate": "2015-12-19",
-      "website": "https://www.amazon.com/OmniOS-Finishing-Programmers-Lifes-Work-ebook/dp/B019LABBDY",
-      "summary": "A short book I wrote about the story of two young and inexperienced programmers who need to delve into the unfamiliar codebase of an operating system and have it ready for an imminent deadline."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Native Android App Development",
-      "level": "Intermediate",
-      "keywords": [
-        "Android"
-        ]
-    },    
-    {
-      "name": "Desktop Java Development",
-      "level": "Intermediate",
-      "keywords": [
-          "JavaFX"
-        ]        
-    },     
-    {
-      "name": "Backend Web Development",
-      "level": "Intermediate",
-      "keywords": [
-        "Laravel",
-        "PHP"
-      ]      
-    },          
-    {
-      "name": "Frontend Web Development",
-      "level": "Beginner",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+    }],
+    "numSkillColumns": 4
 }
