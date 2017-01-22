@@ -4,8 +4,65 @@
         "email": "chenshuiluke@gmail.com",
         "phoneNumber": "+1(876)325-0880",
         "jobTitle": "Software Engineer",
-        "website": "http://lukechenshui.com/"
+        "website": "https://lukechenshui.com/",
+        "address": "7 Meadowland Drive, Kinston 19",
+        "objective": "An intrinsically motivated programmer that aims to attain a challenging and invigorating position as a software engineer in order to continuously develop my skills."
     },
+    "skills":[
+        {
+            "name": "Java"
+        },
+        {
+            "name": "Android"
+        },
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Jenkins"
+        },
+        {
+            "name": "MySQL"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "Vagrant"
+        },
+        {
+            "name": "Wordpress"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Semantic UI"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "C"
+        },
+        {
+            "name": "ExpressJS"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        }
+    ],
+    "accomplishments": [
+        "Team made it to the ACM-ICPC Programming Caribbean National Finals 2015.",
+        "Was the only student to complete all three phases of the Calico 2016 project."
+    ]
+    ,   
     "jobWork":[{
       "company": "Jamaican Association for Debating and Empowerment Limited",
       "position": "Chief Technology Officer",
@@ -29,13 +86,12 @@
       "startDate": "May, 2015",
       "endDate": "August, 2016",
       "highlights": [
-        "Helped to write a REST API in Laravel that provides the backbone for the web and mobile apps developed by the rest of the team."
+        "Wrote a server-side app that serves critical data to the web and mobile app developed by other members of the team."
       ],
       "keywords": [
         "php",
         "laravel"
-      ],
-      "numFollowingLineBreaks": 11   
+      ]
     }],
     "volunteerWork":[
     {
@@ -45,44 +101,53 @@
       "startDate": "June, 2016",
       "endDate": "August, 2016",
       "highlights": [
-        "Developed a Python code style linter designed to augment pep8 and pep257 by checking to see if Python scripts adhere to the Infoset style guides."
+        "Developed a  code style linter designed to check to see if Python scripts adhere to the Infoset style guides."
         ],
       "keywords": [
         "python",
         "flask"
       ]
     }],
-        "skills":[
-        {
-            "name": "Java",
-            "competence": "intermediate"
-        },
-        {
-            "name": "Laravel",
-            "competence": "intermediate"
-        },
-        {
-            "name": "Android",
-            "competence": "intermediate"
-        },
-        {
-            "name": "Vanilla PHP",
-            "competence": "beginner"
-        }
-    ],
     "projects":[
         {
             "name": "JResume",
-            "description": "A Java program that takes a JSON file and converts it to an HTML resume!",
+            "description": "A Java program that takes a JSON file and converts it to an HTML resume.",
             "highlights": [
-                "This resume was generated using JResume.",
-                "Currently has one available theme. More will be added soon"
+                "Among the approved projects for the Calico Project 2017."
             ],
             "keywords": [
                 "java"
             ],
             "url": "https://github.com/chenshuiluke/jresume"            
-        }
+        },
+        {
+            "name": "Lightna Framework",
+            "description": "A PHP framework used to build web applications.",
+            "highlights": [
+                "Allows the manipulation of databases without SQL.",
+                "Includes Semantic UI to make it easy to create beautiful webpages."
+            ],
+            "keywords": [
+                "php"
+            ],
+            "url": "https://github.com/chenshuiluke/lightna-framework"            
+        },
+        {
+            "name": "BeatPulse",
+            "description": "A music player app for Android.",
+            "highlights": [
+                "Supports mp3, flac, wav, ogg and m4a files."
+            ],
+            "keywords": [
+                "java",
+                "android"
+            ],
+            "url": "https://github.com/chenshuiluke/beatpulse"            
+        }                       
     ],
-    "numSkillColumns": 4
+    "hobbies": [
+        "Programming",
+        "Video editing",
+        "Testing out various Linux distributions"
+    ]
 }
