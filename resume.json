@@ -1,5 +1,6 @@
 {
     "skillsHeading": "Skills/Technologies Used",
+    "projectsHeading": "Personal Projects",
     "person":{
         "name": "Luke Chen Shui",
         "email": "chenshuiluke@gmail.com",
@@ -10,54 +11,25 @@
         "objective": "An intrinsically motivated programmer that aims to attain a challenging and invigorating position as a software engineer in order to continuously develop my skills."
     },
     "skills":[
-        {
-            "name": "Java"
-        },
-        {
-            "name": "Android"
-        },
-        {
-            "name": "PHP"
-        },
-        {
-            "name": "Git"
-        },
-        {
-            "name": "Jenkins"
-        },
-        {
-            "name": "MySQL"
-        },
-        {
-            "name": "PostgreSQL"
-        },
-        {
-            "name": "Vagrant"
-        },
-        {
-            "name": "Wordpress"
-        },
-        {
-            "name": "Linux"
-        },
-        {
-            "name": "Semantic UI"
-        },
-        {
-            "name": "Python"
-        },
-        {
-            "name": "C"
-        },
-        {
-            "name": "ExpressJS"
-        },
-        {
-            "name": "HTML"
-        },
-        {
-            "name": "CSS"
-        }
+        "Java",
+        "Android",
+        "PHP",
+        "Git",
+        "Jenkins",
+        "MySQL",
+        "PostgreSQL",
+        "Vagrant",
+        "Wordpress",
+        "Linux",
+        "Semantic UI",
+        "Python",
+        "C",
+        "ExpressJS",
+        "HTML",
+        "CSS",
+        "Flask",
+        "Nginx",
+        "Caddy"
     ],
     "accomplishments": [
         "Team made it to the ACM-ICPC Programming Caribbean National Finals 2015.",
@@ -69,7 +41,7 @@
       "position": "Chief Technology Officer",
       "summary": "The Jamaican Association for Debating and Empowerment is an organization that aims to facilitate the development of debating and public speaking skills by establishing and supporting platforms for active discussions on issues relevant to the Jamaican society.",
       "startDate": "April, 2016",
-      "endDate": "Present",
+      "endDate": "present",
       "highlights": [
         "Replaced their aging Joomla website with a more modern Wordpress site.",
         "Made the JADE Mobile App which is a mobile social media platform that aims to increase the level of discourse of topics relevant to the Jamaican society."
@@ -81,6 +53,25 @@
         "android"
       ]
     },
+    {
+      "company": "C&W Business",
+      "position": "Pre-Sales Engineer Intern",
+      "summary": "Currently working on consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally.",
+      "startDate": "February 2017",
+      "endDate": "present",
+      "highlights": [
+        "Created a Python script to convert the information in the Excel files to SQL that is used to populate the database for the web app.",
+        "Played a large part in developing both the frontend user interface (Semantic UI, vanilla JS and JQuery) and the backend system (Flask) for the web application.",
+        "Set up a test server on DigitalOcean that is used for demo presentations of the web app. Nginx was initially used as the webserver, but it now uses Caddy due to its ease of use and free SSL certificates."
+      ],
+      "keywords": [
+        "python",
+        "flask",
+        "jquery",
+        "semantic ui",
+        "nginx"
+      ]
+    },    
     {
       "company": "Jamaica Money Market Brokers",
       "position": "Contract Developer",
@@ -96,7 +87,7 @@
     }],
     "volunteerWork":[
     {
-      "company": "The Palisadoes Foundation – Calico Project 2016",
+      "company": "The Palisadoes Foundation - Calico Project 2016",
       "position": "Project Participant",
       "summary": "The Calico Project is a programme from The Palisadoes Foundation that incentivizes Jamaican youth to contribute to various open source projects.",
       "startDate": "June, 2016",
@@ -114,7 +105,8 @@
             "name": "JResume",
             "description": "A Java program that takes a JSON file and converts it to an HTML resume.",
             "highlights": [
-                "Among the approved projects for the Calico Project 2017."
+                "Among the approved projects for the Calico Project 2017.",
+                "Was used to generate this resume!"
             ],
             "keywords": [
                 "java"
