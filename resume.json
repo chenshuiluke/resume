@@ -7,69 +7,48 @@
         "phoneNumber": "+1(876)325-0880",
         "jobTitle": "Software Engineer",
         "website": "https://lukechenshui.com/",
-        "address": "7 Meadowland Drive, Kinston 19",
-        "objective": "An intrinsically motivated programmer that aims to attain a challenging and invigorating position as a software engineer in order to continuously develop my skills."
+        "address": "7 Meadowland Drive, Kinston 19"
+    },
+    "education": {
+      "schools": [{
+        "name": "The University of Technology, Jamaica",
+        "startDate": "2014",
+        "endDate": "present",
+        "summary": "Bachelor of Science in Computing"
+      }]
     },
     "skills":[
-        "Java",
-        "Android",
-        "PHP",
-        "Git",
-        "Jenkins",
-        "MySQL",
-        "PostgreSQL",
-        "Vagrant",
-        "Wordpress",
-        "Linux",
-        "Semantic UI",
-        "Python",
-        "C",
-        "ExpressJS",
-        "HTML",
-        "CSS",
-        "Flask",
-        "Nginx",
-        "Caddy"
+      "Java",
+      "Android",
+      "PHP",
+      "Git",
+      "MySQL",
+      "Semantic UI",
+      "Python",
+      "C",
+      "HTML",
+      "CSS",
+      "Flask",
+      "Nginx",
+      "Caddy"
     ],
     "accomplishments": [
         "Team made it to the ACM-ICPC Programming Caribbean National Finals 2015.",
         "Was the only student to complete all three phases of the Calico 2016 project."
     ]
     ,   
-    "jobWork":[{
-      "company": "Jamaican Association for Debating and Empowerment Limited",
-      "position": "Chief Technology Officer",
-      "summary": "The Jamaican Association for Debating and Empowerment is an organization that aims to facilitate the development of debating and public speaking skills by establishing and supporting platforms for active discussions on issues relevant to the Jamaican society.",
-      "startDate": "April, 2016",
-      "endDate": "present",
-      "highlights": [
-        "Replaced their aging Joomla website with a more modern Wordpress site.",
-        "Made the JADE Mobile App which is a mobile social media platform that aims to increase the level of discourse of topics relevant to the Jamaican society."
-      ],
-      "keywords": [
-        "java",
-        "php",
-        "laravel",
-        "android"
-      ]
-    },
+    "jobWork":[
     {
       "company": "C&W Business",
       "position": "Pre-Sales Engineer Intern",
-      "summary": "Currently working on consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally.",
+      "summary": "Currently working on a team tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally.",
       "startDate": "February 2017",
       "endDate": "present",
       "highlights": [
-        "Created a Python script to convert the information in the Excel files to SQL that is used to populate the database for the web app.",
-        "Played a large part in developing both the frontend user interface (Semantic UI, vanilla JS and JQuery) and the backend system (Flask) for the web application.",
-        "Set up a test server on DigitalOcean that is used for demo presentations of the web app. Nginx was initially used as the webserver, but it now uses Caddy due to its ease of use and free SSL certificates."
-      ],
-      "keywords": [
-        "python",
-        "flask",
-        "jquery",
-        "semantic ui",
-        "nginx"
+        "Working on a team of five to create an important pricing tool that will be used internally when designing solutions for clients",
+        "Created a Python script that extracts existing pricing information from Excel worksheets and dumps them into SQL files. These SQL files are then \"sourced\" in the MySQL CLI which will populate the pricing tool's database with the information.",
+        "Made large contributions to both the frontend user interface (Semantic UI, vanilla JS and JQuery) and the backend system (Flask) for the pricing tool.",
+        "Set up a test server on DigitalOcean that is used for demo presentations to stakeholders in the project by both management and developers."
       ]
     },    
     {
@@ -78,11 +57,8 @@
       "startDate": "May, 2015",
       "endDate": "August, 2016",
       "highlights": [
-        "Wrote a server-side app that serves critical data to the web and mobile app developed by other members of the team."
-      ],
-      "keywords": [
-        "php",
-        "laravel"
+        "Worked on a team of four to create a Laravel server-side app that serves as the backbone for the web and mobile app that are used both internally as well as by customers.",
+        "Successfully created the part of the Laravel app that pulls customer information from JMMB's servers via SOAP when necessary, thus preventing the need to have two copies of customer information and reducing the probability of data being compromised."
       ]
     }],
     "volunteerWork":[
@@ -93,12 +69,8 @@
       "startDate": "June, 2016",
       "endDate": "August, 2016",
       "highlights": [
-        "Developed a  code style linter designed to check to see if Python scripts adhere to the Infoset style guides."
-        ],
-      "keywords": [
-        "python",
-        "flask"
-      ]
+        "Developed a code style linter designed to ensure that all committed code adheres to the project style guides."
+        ]
     }],
     "projects":[
         {
@@ -106,10 +78,8 @@
             "description": "A Java program that takes a JSON file and converts it to an HTML resume.",
             "highlights": [
                 "Among the approved projects for the Calico Project 2017.",
-                "Was used to generate this resume!"
-            ],
-            "keywords": [
-                "java"
+                "Was used to generate this resume!",
+                "Allows separation of concerns by allowing you to keep the content of the resume separate from the design of the resume"
             ],
             "url": "https://github.com/chenshuiluke/jresume"            
         },
@@ -117,30 +87,14 @@
             "name": "Lightna Framework",
             "description": "A PHP framework used to build web applications.",
             "highlights": [
-                "Allows the manipulation of databases without SQL.",
-                "Includes Semantic UI to make it easy to create beautiful webpages."
-            ],
-            "keywords": [
-                "php"
+                "Allows the manipulation of databases without SQL."
             ],
             "url": "https://github.com/chenshuiluke/lightna-framework"            
         },
         {
             "name": "BeatPulse",
             "description": "A music player app for Android.",
-            "highlights": [
-                "Supports mp3, flac, wav, ogg and m4a files."
-            ],
-            "keywords": [
-                "java",
-                "android"
-            ],
             "url": "https://github.com/chenshuiluke/beatpulse"            
         }                       
-    ],
-    "hobbies": [
-        "Programming",
-        "Video editing",
-        "Testing out various Linux distributions"
     ]
 }
