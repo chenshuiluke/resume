@@ -6,7 +6,7 @@
         "email": "chenshuiluke@gmail.com",
         "phoneNumber": "+1(876)325-0880",
         "jobTitle": "Software Engineer",
-        "website": "https://lukechenshui.com/",
+        "website": "https://lukecs.com/",
         "address": "7 Meadowland Drive, Kinston 19"
     },
     "education": {
@@ -29,8 +29,7 @@
       "HTML",
       "CSS",
       "Flask",
-      "Nginx",
-      "Caddy"
+      "ReactJS"
     ],
     "accomplishments": [
         "Team made it to the ACM-ICPC Programming Caribbean National Finals 2015.",
@@ -61,18 +60,14 @@
         "Successfully created the part of the Laravel app that pulls customer information from JMMB's servers via SOAP when necessary, thus preventing the need to have two copies of customer information and reducing the probability of data being compromised."
       ]
     }],
-    "volunteerWork":[
-    {
-      "company": "The Palisadoes Foundation - Calico Project 2016",
-      "position": "Project Participant",
-      "summary": "The Calico Project is a programme from The Palisadoes Foundation that incentivizes Jamaican youth to contribute to various open source projects.",
-      "startDate": "June, 2016",
-      "endDate": "August, 2016",
-      "highlights": [
-        "Developed a code style linter designed to ensure that all committed code adheres to the project style guides."
-        ]
-    }],
     "projects":[
+        {
+          "name": "Python Code Style Linter",
+          "description": "A Python code style linter that I developed as a part of Calico 2016, which is a programme that incentivizes youth to contribute to various open source projects.",
+          "highlights": [
+            "Is currently used when the project is doing code reviews to ensure that all committed code adheres to the project's style guides."
+          ]
+        },
         {
             "name": "JResume",
             "description": "A Java program that takes a JSON file and converts it to an HTML resume.",
@@ -92,9 +87,13 @@
             "url": "https://github.com/chenshuiluke/lightna-framework"            
         },
         {
-            "name": "BeatPulse",
-            "description": "A music player app for Android.",
-            "url": "https://github.com/chenshuiluke/beatpulse"            
+            "name": "JResume-Web",
+            "description": "A frontend for JResume written in React.",
+            "url": "https://github.com/chenshuiluke/jresume-web",
+            "highlights": [
+              "A frontend that is being written for JResume to allow less technical people to benefit from its features",
+              "Converts the form data to JSON and sends it to a JResume instance that is running in server mode. It then serves the resulting web resume to the user."
+            ]
         }                       
     ]
 }
