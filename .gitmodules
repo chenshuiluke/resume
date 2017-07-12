@@ -1,0 +1,3 @@
+[submodule "jresume"]
+	path = jresume
+	url = git@github.com:chenshuiluke/jresume

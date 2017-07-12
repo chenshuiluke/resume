@@ -25,11 +25,12 @@
       "MySQL",
       "Semantic UI",
       "Python",
-      "C",
+      "Laravel",
       "HTML",
       "CSS",
       "Flask",
-      "ReactJS"
+      "Drupal",
+      "Rust"
     ],
     "accomplishments": [
         "Team made it to the ACM-ICPC Programming Caribbean National Finals 2015.",
@@ -38,13 +39,33 @@
     ,   
     "jobWork":[
     {
-      "company": "C&W Business",
-      "position": "Pre-Sales Engineer Intern",
-      "summary": "Currently working on a team tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally.",
-      "startDate": "February 2017",
+      "company": "Advanced Internet Technologies, Inc.",
+      "position": "Software Engineer",
+      "summary": "Currently working on a team tasked with creating a geolocation website.",
+      "startDate": "January 2017",
       "endDate": "present",
       "highlights": [
-        "Working on a team of five to create an important pricing tool that will be used internally when designing solutions for clients",
+        "Wrote the code responsible for retrieving geolocation information for a specified IP address.",
+        "Implemented API rate limiting to prevent users from exceeding the limits stipulated by their subscription plan.",
+        "Implemented most of the web user interface.",
+        "Ported the initial version of the website from an in-house PHP framework to Laravel 5.4."
+      ]
+    },  
+    {
+      "company": "Niageo Technologies",
+      "position": "Web Developer Intern",
+      "summary": "Currently the sole developer tasked with making Drupal websites for the company's business clients",
+      "startDate": "June 2017",
+      "endDate": "present"
+    },           
+    {
+      "company": "C&W Business",
+      "position": "Pre-Sales Engineer Intern",
+      "summary": "Worked on a team tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally.",
+      "startDate": "February 2017",
+      "endDate": "June 2017",
+      "highlights": [
+        "Worked on a team of five to create an important pricing tool that will be used internally when designing solutions for clients",
         "Created a Python script that extracts existing pricing information from Excel worksheets and dumps them into SQL files. These SQL files are then \"sourced\" in the MySQL CLI which will populate the pricing tool's database with the information.",
         "Made large contributions to both the frontend user interface (Semantic UI, vanilla JS and JQuery) and the backend system (Flask) for the pricing tool.",
         "Set up a test server on DigitalOcean that is used for demo presentations to stakeholders in the project by both management and developers."
@@ -62,13 +83,6 @@
     }],
     "projects":[
         {
-          "name": "Python Code Style Linter",
-          "description": "A Python code style linter that I developed as a part of Calico 2016, which is a programme that incentivizes youth to contribute to various open source projects.",
-          "highlights": [
-            "Is currently used when the project is doing code reviews to ensure that all committed code adheres to the project's style guides."
-          ]
-        },
-        {
             "name": "JResume",
             "description": "A Java program that takes a JSON file and converts it to an HTML resume.",
             "highlights": [
@@ -79,14 +93,6 @@
             "url": "https://github.com/chenshuiluke/jresume"            
         },
         {
-            "name": "Lightna Framework",
-            "description": "A PHP framework used to build web applications.",
-            "highlights": [
-                "Allows the manipulation of databases without SQL."
-            ],
-            "url": "https://github.com/chenshuiluke/lightna-framework"            
-        },
-        {
             "name": "JResume-Web",
             "description": "A frontend for JResume written in React.",
             "url": "https://github.com/chenshuiluke/jresume-web",
@@ -94,6 +100,23 @@
               "A frontend that is being written for JResume to allow less technical people to benefit from its features",
               "Converts the form data to JSON and sends it to a JResume instance that is running in server mode. It then serves the resulting web resume to the user."
             ]
-        }                       
+        }, 
+        {
+            "name": "github-repo-dl",
+            "description": "A simple Rust CLI program that makes it easy to backup all your github repositories.",
+            "url": "https://github.com/chenshuiluke/github-repo-dl",
+            "highlights": [
+              "Once provided with the user's GitHub personal access token, it can download all of the user's repositories to a local folder."
+            ]
+        },
+        {
+          "name": "JADE Mobile App",
+          "url": "https://github.com/JADE-Limited/JADE-Mobile-App",
+          "description": "Developed as a volunteer for the Jamaican Association for Debating and Empowerment, the JADE Mobile App is a work-in-progress question & answer platform designed to increase the level of discourse for topics relevant to the Jamaican society.",
+          "highlights": [
+            "Allows users to ask and answer questions as well as comment on and upvote answers.",
+            "My first Android app"
+          ]
+        }                            
     ]
 }
