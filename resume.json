@@ -41,44 +41,37 @@
     {
       "company": "Advanced Internet Technologies, Inc.",
       "position": "Software Engineer",
-      "summary": "Currently working on a team tasked with creating a geolocation website.",
+      "summary": "Developed a highly performant subscription-based ip geolocation web system capable of serving thousands of simultaneous users.",
       "startDate": "January 2017",
       "endDate": "present",
       "highlights": [
         "Wrote the code responsible for retrieving geolocation information for a specified IP address.",
         "Implemented API rate limiting to prevent users from exceeding the limits stipulated by their subscription plan.",
-        "Implemented most of the web user interface.",
+        "Created the landing page which shows the location of the user visiting it.",
+        "Created the user account details page, where the user can change his password, upgrade his subscription and see his current API usage.",
+        "Created API documentation page and added API usage examples for Java, PHP, Python, cURL and JavaScript.",
         "Ported the initial version of the website from an in-house PHP framework to Laravel 5.4."
       ]
-    },  
+    }, 
+
     {
       "company": "Niageo Technologies",
       "position": "Web Developer Intern",
-      "summary": "Currently the sole developer tasked with making Drupal websites for the company's business clients",
+      "summary": "Currently tasked with developing and maintaining Drupal websites for the company's business clients.",
       "startDate": "June 2017",
       "endDate": "present"
-    },           
+    },              
     {
       "company": "C&W Business",
       "position": "Pre-Sales Engineer Intern",
-      "summary": "Worked on a team tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally.",
+      "summary": "Worked on a team of five tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally when developing solutions for business clients.",
       "startDate": "February 2017",
       "endDate": "June 2017",
       "highlights": [
-        "Worked on a team of five to create an important pricing tool that will be used internally when designing solutions for clients",
-        "Created a Python script that extracts existing pricing information from Excel worksheets and dumps them into SQL files. These SQL files are then \"sourced\" in the MySQL CLI which will populate the pricing tool's database with the information.",
-        "Made large contributions to both the frontend user interface (Semantic UI, vanilla JS and JQuery) and the backend system (Flask) for the pricing tool.",
-        "Set up a test server on DigitalOcean that is used for demo presentations to stakeholders in the project by both management and developers."
-      ]
-    },    
-    {
-      "company": "Jamaica Money Market Brokers",
-      "position": "Contract Developer",
-      "startDate": "May, 2015",
-      "endDate": "August, 2016",
-      "highlights": [
-        "Worked on a team of four to create a Laravel server-side app that serves as the backbone for the web and mobile app that are used both internally as well as by customers.",
-        "Successfully created the part of the Laravel app that pulls customer information from JMMB's servers via SOAP when necessary, thus preventing the need to have two copies of customer information and reducing the probability of data being compromised."
+        "Created a Python script that extracts existing pricing information from the Excel pricing worksheets and dumps them into SQL files. These SQL files are then \"sourced\" in the MySQL CLI which will populate the pricing tool's database with the information. This was an essential part of getting the project off the ground due to the fact that we would otherwise have needed to entered several thousands of records into the database manually.",
+        "Added the ability for the webapp to automatically generate an Excel quote based on the user's selections.",
+        "Set up a test server on DigitalOcean that is used for demo presentations to stakeholders in the project by both management and developers.",
+        "Added equipment, services, support, provider and provider CRUD functionality, which dramatically improved team efficiency and made it infinitely easier for the internal users to add products to list of offerings."
       ]
     }],
     "projects":[
@@ -88,7 +81,7 @@
             "highlights": [
                 "Among the approved projects for the Calico Project 2017.",
                 "Was used to generate this resume!",
-                "Allows separation of concerns by allowing you to keep the content of the resume separate from the design of the resume"
+                "Allows separation of concerns by allowing you to keep the content of the resume separate from the design of the resume. Which makes it easier to completely change the layout of the resume when changing themes."
             ],
             "url": "https://github.com/chenshuiluke/jresume"            
         },
@@ -115,7 +108,8 @@
           "description": "Developed as a volunteer for the Jamaican Association for Debating and Empowerment, the JADE Mobile App is a work-in-progress question & answer platform designed to increase the level of discourse for topics relevant to the Jamaican society.",
           "highlights": [
             "Allows users to ask and answer questions as well as comment on and upvote answers.",
-            "My first Android app"
+            "In addition to that, users can specifically request answers from experts listed in the app. The expert will get a notification that shows that their expertise has been requested",
+            "An administrative backend was also created that allows JADE management to moderate the content on the platform and to add or remove experts from the list."
           ]
         }                            
     ]
