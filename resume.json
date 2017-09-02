@@ -38,43 +38,59 @@
     ]
     ,   
     "jobWork":[
-    {
-      "company": "Advanced Internet Technologies, Inc.",
-      "position": "Software Engineer",
-      "summary": "Developed a highly performant subscription-based ip geolocation web system capable of serving thousands of simultaneous users.",
-      "startDate": "January 2017",
-      "endDate": "present",
-      "highlights": [
-        "Wrote the code responsible for retrieving geolocation information for a specified IP address.",
-        "Implemented API rate limiting to prevent users from exceeding the limits stipulated by their subscription plan.",
-        "Created the landing page which shows the location of the user visiting it.",
-        "Created the user account details page, where the user can change his password, upgrade his subscription and see his current API usage.",
-        "Created API documentation page and added API usage examples for Java, PHP, Python, cURL and JavaScript.",
-        "Ported the initial version of the website from an in-house PHP framework to Laravel 5.4."
-      ]
-    }, 
-
-    {
-      "company": "Niageo Technologies",
-      "position": "Web Developer Intern",
-      "summary": "Currently tasked with developing and maintaining Drupal websites for the company's business clients.",
-      "startDate": "June 2017",
-      "endDate": "present"
-    },              
-    {
-      "company": "C&W Business",
-      "position": "Pre-Sales Engineer Intern",
-      "summary": "Worked on a team of five tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally when developing solutions for business clients.",
-      "startDate": "February 2017",
-      "endDate": "June 2017",
-      "highlights": [
-        "Created a Python script that extracts existing pricing information from the Excel pricing worksheets and dumps them into SQL files. These SQL files are then \"sourced\" in the MySQL CLI which will populate the pricing tool's database with the information. This was an essential part of getting the project off the ground due to the fact that we would otherwise have needed to entered several thousands of records into the database manually.",
-        "Added the ability for the webapp to automatically generate an Excel quote based on the user's selections.",
-        "Set up a test server on DigitalOcean that is used for demo presentations to stakeholders in the project by both management and developers.",
-        "Added equipment, services, support, provider and provider CRUD functionality, which dramatically improved team efficiency and made it infinitely easier for the internal users to add products to list of offerings."
-      ]
-    }],
+      {
+        "company": "Niageo Technologies",
+        "position": "Web Developer",
+        "summary": "Developed a number of sites for local companies on behalf of the company",
+        "startDate": "June 2017",
+        "endDate": "present"
+      },       
+      {
+        "company": "Advanced Internet Technologies, Inc.",
+        "position": "Software Engineer",
+        "summary": "Developed a highly performant subscription-based ip geolocation web system capable of serving thousands of simultaneous users.",
+        "startDate": "January 2017",
+        "endDate": "June 2017",
+        "highlights": [
+          "Wrote the code responsible for retrieving geolocation information for a specified IP address.",
+          "Implemented API rate limiting to prevent users from exceeding the limits stipulated by their subscription plan.",
+          "Created the landing page which shows the location of the user visiting it.",
+          "Created the user account details page, where the user can change his password, upgrade his subscription and see his current API usage.",
+          "Created API documentation page and added API usage examples for Java, PHP, Python, cURL and JavaScript.",
+          "Ported the initial version of the website from an in-house PHP framework to Laravel 5.4."
+        ]
+      },        
+      {
+        "company": "C&W Business",
+        "position": "Pre-Sales Engineer Intern",
+        "summary": "Worked on a team of five tasked with consolidating the various internal Excel pricing tools into a single, streamlined web application for use internally when developing solutions for business clients.",
+        "startDate": "February 2017",
+        "endDate": "June 2017",
+        "highlights": [
+          "Created a Python script that extracts existing pricing information from the Excel pricing worksheets and dumps them into SQL files. These SQL files are then \"sourced\" in the MySQL CLI which will populate the pricing tool's database with the information. This was an essential part of getting the project off the ground due to the fact that we would otherwise have needed to entered several thousands of records into the database manually.",
+          "Added the ability for the webapp to automatically generate an Excel quote based on the user's selections.",
+          "Set up a test server on DigitalOcean that is used for demo presentations to stakeholders in the project by both management and developers.",
+          "Added equipment, services, support, provider and provider CRUD functionality, which dramatically improved team efficiency and made it infinitely easier for the internal users to add products to list of offerings."
+        ]
+      }],
     "projects":[
+        {
+          "name": "maester",
+          "description": "A work-in-progress Evernote clone written in Angular 4 and ExpressJS.",
+          "highlights": [
+              "Currently allows real-time collaborative text editing using websockets. Any text changes made on the homepage will automatically be reflected on any device that's viewing the homepage."
+          ],
+          "url": "https://maester.lukecs.com"            
+        },           
+        {
+            "name": "ng-hackernews",
+            "description": "A Hacker News (news.ycombinator.com) clone written using Angular 4 and ExpressJS",
+            "highlights": [
+                "Allows you to browse through up to 500 of the top stories on Hacker News without needing to keep pressing the 'next page' button.",
+                "Allows you to browse the comments of a top story without having to open a new tab or leaving the news feed page."
+            ],
+            "url": "https://ng-hackernews.lukecs.com"            
+        },      
         {
             "name": "JResume",
             "description": "A Java program that takes a JSON file and converts it to an HTML resume.",
@@ -88,7 +104,7 @@
         {
             "name": "JResume-Web",
             "description": "A frontend for JResume written in React.",
-            "url": "https://github.com/chenshuiluke/jresume-web",
+            "url": "https://jresume.lukecs.com",
             "highlights": [
               "A frontend that is being written for JResume to allow less technical people to benefit from its features",
               "Converts the form data to JSON and sends it to a JResume instance that is running in server mode. It then serves the resulting web resume to the user."
